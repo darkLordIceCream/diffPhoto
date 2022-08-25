@@ -6,7 +6,8 @@
 # coding: utf-8
 from util import *
 from photo_class import *
-#  pyinstaller -F  main.py --paths="E:\Quick Folder\Desktop\diffPhoto\venv\Lib\site-packages"
+#  pyinstaller -F  main.py --paths="E:\Quick Folder\Desktop\GitHub\diffPhoto\venv\Lib\site-packages"
+# test
 path = input('请拖入目录下任意一张图片并按下回车: ')
 path = os.path.dirname(path)  # 获取父目录
 if path[0] == '"':
