@@ -9,4 +9,5 @@ import datetime
 import shutil
 import msvcrt
 import sys
+import re
 from numpy import unicode
