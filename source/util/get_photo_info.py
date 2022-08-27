@@ -8,7 +8,7 @@ from .Lib import *
 def get_photo_name(path):
     names = []
     for name in os.listdir(path):
-        if name.endswith(".jpg") or name.endswith(".JPG"):
+        if name.endswith(".jpg") or name.endswith(".JPG") or name.endswith(".jpeg"):
             names.append(path + os.sep + name)
     names.sort(key=lambda l: int("".join(re.findall(r'\d+', l))))   # 通过正则表达式提取数字进行排序
     return names

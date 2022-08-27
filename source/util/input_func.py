@@ -12,8 +12,8 @@ def input_path():
 
 def input_orientation():
     orientation = input('从左到右拼扣0，从右到左拼扣1: ')  # 朝向
-    if orientation == 0:
-        orientation = True
-    else:
+    if orientation == '0':
         orientation = False
+    else:
+        orientation = True
     return orientation

@@ -16,6 +16,7 @@ if __name__ == '__main__':
     test = photo(path, orientation)
     print_hi('hello world')
     log("diffPhoto start")
+    # print(test.name)
     test.cut_and_combine_photo()
     # names = get_photo_name(path)
     # for name in names:
