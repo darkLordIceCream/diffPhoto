@@ -2,9 +2,11 @@ from util import *
 
 
 class photo:
-    def __init__(self, path):   # 通过util中的函数获取属性
+    def __init__(self, path, orientation):   # 通过util中的函数获取属性
         self.path = path
         self.name = get_photo_name(path)
+        if orientation:
+            self.name.reverse()
         self.num = get_num(path)
 
         self.height, self.width = get_width(self.name[0])

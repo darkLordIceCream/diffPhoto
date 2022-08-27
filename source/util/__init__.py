@@ -6,3 +6,4 @@ from . cal_diff import *
 from . get_photo_info import *
 from . log import *
 from . print_hi import *
+from . input_func import *
